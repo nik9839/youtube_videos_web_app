@@ -43,7 +43,7 @@ export default class Videos extends Component {
         return [
             {
                 Header: <span>Avatar</span>,
-                accessor: "avatar",
+                accessor: "thumbnails",
                 Cell: row => (<Avatar url={row.value} />),
                 maxWidth: 100,
                 sortable: false
